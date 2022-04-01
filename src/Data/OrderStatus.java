@@ -1,8 +1,8 @@
 package Data;
 
 public enum OrderStatus {
-    NEW("nowe"), PAID("npłacone"), SHIPPED("nysłane"),
-    DELIVERED("nostarczone"), CANCELLED("anulowane");
+    NEW("nowe"), PAID("opłacone"), SHIPPED("wysłane"),
+    DELIVERED("dostarczone"), CANCELLED("anulowane");
 
     private final  String description;
 
@@ -19,12 +19,8 @@ public enum OrderStatus {
         return   description ;
     }
 
-    public OrderStatus fromDescription (String description){
-        OrderStatus[] values = values();
-        for (OrderStatus value : values) {
-            if (OrderStatus.get)
 
-        }
-    }
+
+
 
 }
